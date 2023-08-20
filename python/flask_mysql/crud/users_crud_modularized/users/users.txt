@@ -1,0 +1,28 @@
+select * from users;
+
+// Create 3 new users
+insert into users (first_name, last_name, email, created_at, updated_at)
+values ('A','A','A.com',now(),now()), ('B','B','B.com',now(),now()), ('C','C','C.com',now(),now());
+
+// Retrieve all the users
+select * from users;
+
+// Retrieve users by email
+select * from users
+where email = 'A.com';
+
+// Retrieve Retrieve users by id
+select * from users
+where id = 3;
+
+// Delete users by id
+delete from users
+where id = 2;
+
+// Retrieve users by first_name asending order
+select * from users
+order by first_name;
+
+// Retrieve users by first_name descending order
+select * from users
+order by first_name desc;

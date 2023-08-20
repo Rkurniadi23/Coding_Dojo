@@ -1,0 +1,4 @@
+Hi instructor,
+
+I am not sure why my c:forEach is not working. Is there something that I am missing?
+Thank you!
